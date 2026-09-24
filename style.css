@@ -583,17 +583,17 @@ body {
     padding: 2% 5%;
 }
 
-.sticky {
+.fixed {
     position: fixed;
-    bottom: 2%;
-    right: 2%;
+    bottom: 5%;
+    right: 5%;
     z-index: 1;
     text-align: center;
     font-size: 14px;
 }
 
-.sticky i {
-    font-size: 35px;
+.fixed i {
+    font-size: 30px !important;
 }
 
 @media screen and (max-width: 1250px) {
@@ -601,6 +601,7 @@ body {
     * {
         font-size: 14px !important;
     }
+
     .navbar__right__ai,
     .navbar__right p:nth-child(6),
     .navbar__right__sign {
